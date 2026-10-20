@@ -1,0 +1,16 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/legion-factory/zenmoney-cimd-client@main/client.json",
+  "client_name": "LifeGame",
+  "redirect_uris": [
+    "http://127.0.0.1:8765/callback",
+    "http://localhost:8765/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
